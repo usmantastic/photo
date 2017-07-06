@@ -1,0 +1,153 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+/*remove the scrollbar and still be able to scroll*/
+::-webkit-scrollbar {
+    display: none;
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+.topbar{
+  height: 110px;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  opacity: 0.7;
+  position: fixed;
+}
+.bar{
+  float: left;
+  width: 33.333vw;
+  height: 110px;
+}
+.icon-div{
+  margin: auto;
+  width: 60%;
+  padding: 0;
+  padding-top: 33px;
+}
+.icon{
+  height: 3vw;
+  width: 3vw;
+  min-width: 30px;
+  min-height: 30px;
+}
+.nav-buttons-div{
+  float:right;
+  width: 100%;
+  padding-top: 45px;
+  font-family: 'Nunito', sans-serif;
+}
+.nav-button{
+  display: inline-block;
+  padding-left: 2vw;
+
+}
+a{
+  color:inherit;
+  text-decoration: none;
+}
+.photoWall {
+    width: 100%;
+    padding: 0;
+    font-size: 0px;
+    padding-top: 110px;
+}
+.container1 .smallImage{
+  width: auto;
+  height: 13.278vw;
+  margin: 0;
+  padding-left: 0.0732vw;
+  padding-bottom: 0.0732vw;
+  /*min-width: 150px;
+  min-height: 100px;*/
+}
+
+.container2 .smallImage{
+  width: auto;  /*calc(20vw - 1px)*/
+  height: 15.39vw;
+  margin: 0;
+  padding-left: 0.0732vw;
+  padding-bottom: 0.0732vw;
+  /*min-width: 150px;
+  min-height: 100px;*/
+}
+
+.container3 .smallImage{
+  width: auto;  /*calc(20vw - 1px)*/
+  height: 13.95vw;
+  margin: 0;
+  padding-left: 0.0732vw;
+  padding-bottom: 0.0732vw;
+  /*min-width: 150px;
+  min-height: 100px;*/
+}
+
+.container4 .smallImage{
+  width: auto;  /*calc(20vw - 1px)*/
+  height: 15.75vw;
+  margin: 0;
+  padding-left: 0.0732vw;
+  padding-bottom: 0.0732vw;
+  /*min-width: 150px;
+  min-height: 100px;*/
+}
+
+.container5 .smallImage{
+  width: auto;  /*calc(20vw - 1px)*/
+  height: 13.7vw;
+  margin: 0;
+  padding-left: 0.0732vw;
+  padding-bottom: 0.0732vw;
+  /*min-width: 150px;
+  min-height: 100px;*/
+}
+
+.container6 .smallImage{
+  width: auto;  /*calc(20vw - 1px)*/
+  height: 12.725vw;
+  margin: 0;
+  padding-left: 0.0732vw;
+  padding-bottom: 0.0732vw;
+  /*min-width: 150px;
+  min-height: 100px;*/
+}
+.container7 .smallImage{
+  width: auto;  /*calc(20vw - 1px)*/
+  height: 12.83vw;
+  margin: 0;
+  padding-left: 0.0732vw;
+  padding-bottom: 0.0732vw;
+  /*min-width: 150px;
+  min-height: 100px;*/
+}
+.container8 .smallImage{
+  width: auto;  /*calc(20vw - 1px)*/
+  height: 13.12vw;
+  margin: 0;
+  padding-left: 0.0732vw;
+  padding-bottom: 0.0732vw;
+  /*min-width: 150px;
+  min-height: 100px;*/
+}
+.container9 .smallImage{
+  width: auto;  /*calc(20vw - 1px)*/
+  height: 15.4vw;
+  margin: 0;
+  padding-left: 0.0732vw;
+  padding-bottom: 0.0732vw;
+  /*min-width: 150px;
+  min-height: 100px;*/
+}
+footer{
+  width: 100%;
+  height: 110px;
+}
